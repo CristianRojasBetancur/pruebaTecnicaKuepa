@@ -26,3 +26,20 @@
   border-bottom-left-radius: 50px;
   padding: 30px !important;
 }
+
+.content .row {
+  margin-top: 30px;
+}
+
+.cola {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 15px !important;
+  width: 100%;
+}
+
+.meta {
+  border: solid 1px blue;
+  width: 100%;
+}
+ 

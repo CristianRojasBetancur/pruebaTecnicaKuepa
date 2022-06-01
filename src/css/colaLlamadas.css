@@ -1,0 +1,41 @@
+.circle {
+  background: rgb(249, 122, 151);
+  background: linear-gradient(
+    180deg,
+    rgba(249, 122, 151, 1) 0%,
+    rgba(249, 147, 137, 1) 98%
+  );
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleInt {
+    width: 85px;
+    height: 85px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leads {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.leads .row span, .leads:nth-child(2n) .row span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.circleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
