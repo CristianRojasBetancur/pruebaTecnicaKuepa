@@ -1,0 +1,51 @@
+.topBar {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.box {
+    background-color: #f2f2f7;
+    width: 250px;
+    display: flex;
+    border-radius: 10px;
+    padding: 5px !important;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px !important;
+}
+
+.box2 {
+    background-color: #f2f2f7;
+    display: flex;
+    border-radius: 10px;
+    height: 34px;
+    padding: 0 15px !important;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+.box2 p {
+    padding-right: 15px !important;
+}
+
+.box > i {
+    color: #777;
+    font-size: 14px;
+    padding-left: 5px !important;
+}
+
+.box > input {
+    background-color: #f2f2f7;
+    border: none;
+    outline: none;
+    flex: 1;
+    padding-left: 10px !important;
+    font-weight: 200;
+}
