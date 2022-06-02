@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/colaLlamadas.css';
+import '../css/metaIndividual.css';
 
-const colaLlamadas = () => {
+const metaIndividual = () => {
     return (
         <div className='container'>
             <div className="row">
@@ -12,14 +12,14 @@ const colaLlamadas = () => {
                         </div>
                     </div>
                 </div>
-                <div className="leads col">
+                <div className="leads col-5">
                     <div className="col">
                         <div className="row">
                             <div className="col"><span>Leads obtenidos</span></div>
                             <div className="col"><h6>50/100</h6></div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="col-5">
                         <div className="row">
                             <div className="col"><span>Matriculas finalizadas</span></div>
                             <div className="col"><h6>10/20</h6></div>
@@ -31,4 +31,4 @@ const colaLlamadas = () => {
     );
 };
 
-export default colaLlamadas;
+export default metaIndividual;

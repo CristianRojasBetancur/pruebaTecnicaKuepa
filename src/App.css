@@ -25,10 +25,11 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 30px !important;
+  padding-right: 130px !important;
 }
 
-.content .row {
-  margin-top: 30px;
+.completeCalls {
+  height: 145px !important;
 }
 
 .cola {
@@ -36,10 +37,31 @@
   background-color: #fff;
   padding: 15px !important;
   width: 100%;
+  height: 100%;
 }
 
 .meta {
-  border: solid 1px blue;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 15px !important;
   width: 100%;
+  height: 100%;
 }
  
+.planHoy {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.barraLateral {
+  width: 100px;
+  height: 100vh;
+  background-color: #2b2e43;
+  position: absolute;
+  right: 0;
+  top: 0%;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
