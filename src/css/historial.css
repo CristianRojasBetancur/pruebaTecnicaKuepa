@@ -1,0 +1,70 @@
+.container {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 10px !important;
+  width: 100% !important;
+  max-height: 125px !important;
+}
+
+.cuadro {
+  background: rgb(173, 130, 246);
+  background: linear-gradient(
+    180deg,
+    rgba(173, 130, 246, 1) 0%,
+    rgba(132, 182, 250, 1) 98%
+  );
+  width: 80%;
+  height: 100px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.cuadro2 {
+  background: rgb(0, 121, 145);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 121, 145, 1) 0%,
+    rgba(117, 252, 212, 1) 98%
+  );
+  width: 80%;
+  height: 100px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.cuadro3 {
+  background: rgb(178, 69, 145);
+  background: linear-gradient(
+    180deg,
+    rgba(178, 69, 145, 1) 0%,
+    rgba(240, 95, 121, 1) 98%
+  );
+  width: 80%;
+  height: 100px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.cuadro img,
+.cuadro2 img,
+.cuadro3 img {
+  position: absolute;
+  width: 80%;
+  margin: 0 auto !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.texto {
+    padding: 5px !important;
+}
+
+.texto p {
+    font-size: .7em;
+    font-weight: 500;
+}
+
+.texto span {
+    font-size: .8em;
+}

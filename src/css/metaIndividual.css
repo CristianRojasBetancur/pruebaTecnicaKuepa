@@ -1,3 +1,11 @@
+.containerMeta {
+  width: 100% !important;
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 10px !important;
+  width: 100% !important;
+}
+
 .circle {
   background: rgb(249, 122, 151);
   background: linear-gradient(
@@ -14,28 +22,29 @@
 }
 
 .circleInt {
-    width: 85px;
-    height: 85px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 85px;
+  height: 85px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .leads {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
 
-.leads .row span, .leads:nth-child(2n) .row span {
-    font-size: 14px;
-    font-weight: 500;
+.leads .row span,
+.leads:nth-child(2n) .row span {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .circleContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

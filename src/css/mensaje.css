@@ -1,0 +1,62 @@
+.containerMensaje {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px  !important;
+    align-items: flex-end;
+}
+
+.mensaje {
+    width: 70px;
+    height: 70px;
+    background-color: #464858;
+    margin: 10px !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mensaje .titulo {
+    width: 100%;
+    height: 18px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #9699b4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px !important;
+    position: relative;
+}
+
+.mensaje .titulo img {
+    width: 30px;
+    position: absolute;
+    left: -4px;
+    bottom: -2px;
+}
+
+.titulo span {
+    font-size: .54em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.mensaje p {
+    color: #fff;
+    font-weight: 400;
+    font-size: .7em;
+}
+
+.mensaje > span {
+    color: lightgray;
+    font-weight: 100;
+    font-size: .6em;
+}
+
+.mensaje > span, .mensaje p {
+    margin-left: 5px !important;
+}

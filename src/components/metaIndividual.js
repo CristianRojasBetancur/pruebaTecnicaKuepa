@@ -3,7 +3,7 @@ import '../css/metaIndividual.css';
 
 const metaIndividual = () => {
     return (
-        <div className='container'>
+        <div className='containerMeta'>
             <div className="row">
                 <div className="circleContainer col-3">
                     <div className="circle">

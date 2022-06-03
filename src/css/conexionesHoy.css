@@ -1,0 +1,104 @@
+.contenedorConexiones {
+  border-radius: 15px;
+  background-color: #fff;
+  padding: 15px 0 25px 0 !important;
+  width: 100%;
+  max-height: 300px;
+}
+
+.contenedorConexiones p {
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0 15px !important;
+}
+
+.contenedorConexiones table {
+    font-size: .8em;
+    width: 100%;
+}
+
+.contenedorConexiones table tr {
+    margin-bottom: 2px !important;
+    width: 100%;
+}
+
+.contenedorConexiones table tr:nth-child(odd){
+    background-color: #ecf3fd;
+    border-left: solid 3px #b24592;
+}
+
+.contenedorConexiones table tr:nth-child(even){
+    border-left: solid 3px #af81f6;
+}
+
+.contenedorConexiones table tr td {
+    height: 50px;
+    display: table-cell;
+    vertical-align: center;
+    padding: 0 5px !important;
+    
+}
+
+.contenedorConexiones table tr td:last-child {
+    text-align: center;
+}
+
+.contenedorConexiones table tr td span {
+    font-size: .8em;
+    color: rgb(154, 154, 154);
+    font-weight: 400;
+}
+
+.contenedorConexiones table tr td .orangePoint {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto !important;
+    background-color: #ff9500;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.contenedorConexiones table tr td .grayPoint {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto !important;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.contenedorConexiones table tr td i {
+    font-size: 12px;
+    margin-right: 5px !important;
+}
+
+.tabla {
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+/* SCROLLBAR */
+
+.tabla::-webkit-scrollbar {
+    background-color: #fff;
+    width: 16px;
+}
+
+/* background of the scrollbar except button or resizer */
+.tabla::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+/* scrollbar itself */
+.tabla::-webkit-scrollbar-thumb {
+    background-color: #babac0;
+    border-radius: 16px;
+    border: 4px solid #fff;
+}
+
+/* set button(top and bottom of the scrollbar) */
+.tabla::-webkit-scrollbar-button {
+    display:none;
+}

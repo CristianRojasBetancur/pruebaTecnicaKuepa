@@ -25,38 +25,36 @@
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   padding: 30px !important;
-  padding-right: 130px !important;
+  padding-right: 180px !important;
 }
 
 .completeCalls {
-  height: 145px !important;
+  height: 100% !important;
 }
 
-.cola {
-  border-radius: 15px;
-  background-color: #fff;
-  padding: 15px !important;
-  width: 100%;
-  height: 100%;
-}
-
-.meta {
-  border-radius: 15px;
-  background-color: #fff;
-  padding: 15px !important;
-  width: 100%;
-  height: 100%;
-}
- 
-.planHoy {
+.agenda {
+  max-height: 300px !important;
   display: flex;
-  font-size: 12px;
-  align-items: center;
+}
+
+.conexionesHoy {
+  align-self: center;
+}
+
+
+.planHoy span {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+
+.planHoy .text {
+  display: flex;
   justify-content: space-between;
 }
 
 .barraLateral {
-  width: 100px;
+  position: relative;
+  width: 150px;
   height: 100vh;
   background-color: #2b2e43;
   position: absolute;
@@ -64,4 +62,15 @@
   top: 0%;
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.barraInterna {
+  position: absolute;
+  width: 6px;
+  height: 50%;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-left: 20px !important;
 }
