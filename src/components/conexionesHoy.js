@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/conexionesHoy.css';
 
 const conexionesHoy = (props) => {
-    console.log(props);
     return (
         <>
             <div className="contenedorConexiones">

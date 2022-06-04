@@ -28,9 +28,7 @@
   padding-right: 180px !important;
 }
 
-.completeCalls {
-  height: 100% !important;
-}
+
 
 .agenda {
   max-height: 300px !important;
@@ -40,7 +38,6 @@
 .conexionesHoy {
   align-self: center;
 }
-
 
 .planHoy span {
   font-size: 0.8em;
@@ -69,7 +66,7 @@
 .barraInterna {
   position: absolute;
   width: 6px;
-  height: 50%;
+  height: 30%;
   background-color: #fff;
   border-radius: 3px;
   margin-left: 20px !important;

@@ -31,7 +31,7 @@ const historial = () => {
                             </div>
                         </div>
                         <div className="texto col-6">
-                            <p className='mb-2'>Leads de primer contacto</p>
+                            <p className='mb-2'>Leads por confirmar cita</p>
                             <span className='mb-2'><i class="fas fa-phone-alt"></i></span><span className='ms-2'>15</span><br />
                             <span><i class="fas fa-comment-alt"></i></span><span className='ms-2'>15</span>
                         </div>
@@ -48,7 +48,7 @@ const historial = () => {
                             </div>
                         </div>
                         <div className="texto col-6">
-                            <p className='mb-2'>Leads de primer contacto</p>
+                            <p className='mb-2'>Leads de último intento</p>
                             <span className='mb-2'><i class="fas fa-phone-alt"></i></span><span className='ms-2'>15</span><br />
                             <span><i class="fas fa-comment-alt"></i></span><span className='ms-2'>15</span>
                         </div>
